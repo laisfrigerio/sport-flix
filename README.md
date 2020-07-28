@@ -1,6 +1,6 @@
 # :copyright: SportFlix
 
-Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
+:arrow_right_hook: Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
 
 ![Home desktop](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-desktop.png)
 
@@ -20,6 +20,6 @@ Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
 - `npm install`
 - `npm start`
 
-### :muscle: Contribuição
+## :muscle: Contribuição
 
 [@luhcasgabriel](https://github.com/lucashgabriel/) - Pela inspiração :heart_eyes:
