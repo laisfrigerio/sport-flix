@@ -1,4 +1,4 @@
-# SportFlix
+# :copyright: SportFlix
 
 Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
 
@@ -6,17 +6,20 @@ Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
 
 ![Home mobile](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-mobile.png)
 
-## Features
+## :pencil: Features
 
-- custom layout
-- styled-components
-- react-router-dom
+- :ballot_box_with_check: custom layout
+- :ballot_box_with_check: styled-components
+- :ballot_box_with_check: react-router-dom
+- :heavy_multiplication_x: JSON with data
+- :heavy_multiplication_x: Carousel
+- :heavy_multiplication_x: Add vídeo into a list
 
-## Run local
+## :gem: Run local
 
 - `npm install`
 - `npm start`
 
-### Contribuição
+### :muscle: Contribuição
 
 [@luhcasgabriel](https://github.com/lucashgabriel/) - Pela inspiração :heart_eyes:
