@@ -77,110 +77,96 @@
         ]
       },
       {
-        "title": "Data Science e Inteligência Artificial",
+        "title": "Paraná Clube",
         "color": "#33535f",
         "extraLink": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/formacao-data-science"
+          "text": "+ vídeos",
+          "url": "https://www.youtube.com/channel/UCY5G5pM9oJwAsBMBnfJKWxg"
         },
         "videos": [
           {
-            "title": "Teste de Turing",
-            "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+            "title": "BASTIDORES | PARANÁ CLUBE 0x1 CORITIBA",
+            "url": "https://www.youtube.com/watch?v=wQu5t2mvFa4"
           },
           {
-            "title": "O que é Data Science?",
-            "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+            "title": "ENTREVISTA COM O GOLEIRO ALISSON",
+            "url": "https://www.youtube.com/watch?v=rU5uPP_PGT4"
           },
           {
-            "title": "Melhor forma de aprender Python",
-            "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+            "title": "SEJA BEM-VINDO, BRUNO GOMES!",
+            "url": "https://www.youtube.com/watch?v=MsgMC9SUT5c"
           },
           {
-            "title": "Como ingressar no mercado de Data Science?",
-            "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+            "title": "SEJA BEM-VINDO, SALAZAR!",
+            "url": "https://www.youtube.com/watch?v=99HxcAv9Jys"
+          },
+          {
+            "title": "COLETIVA PÓS-JOGO COM TÉCNICO ALLAN AAL",
+            "url": "https://www.youtube.com/watch?v=RYMRb2ZF4OY"
+          },
+          {
+            "title": "ENTREVISTA COM ALLAN AAL ANTES DO PARATIBA",
+            "url": "https://www.youtube.com/watch?v=uWGgzq47bRw"
           }
         ]
       },
       {
-        "title": "Filmes",
-        "color": "#33535f",
+        "title": "Real Madrid",
+        "color": "#a28757",
+        "extraLink": {
+          "text": "site oficial",
+          "url": "https://www.realmadrid.com/pt"
+        },
         "videos": [
           {
-            "title": "Interestellar",
-            "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+            "title": "Real Madrid, LaLiga CHAMPIONS 2019/20 celebrations!",
+            "url": "https://www.youtube.com/watch?v=g0Pyo8Qraac"
           },
           {
-            "title": "Gattaca",
-            "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+            "title": "Institutional event to celebrate our 34th LaLiga crown!",
+            "url": "https://www.youtube.com/watch?v=-ldYxRRgoeQ"
           },
           {
-            "title": "A Chegada",
-            "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+            "title": "Real Madrid's LaLiga title dressing room celebrations!",
+            "url": "https://www.youtube.com/watch?v=73RlBA-7yAk"
           },
           {
-            "title": "Feitiço do Tempo",
-            "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+            "title": "GUESS WHO? | Ep.5 | Carvajal vs Nacho | EA Sports Edition",
+            "url": "https://www.youtube.com/watch?v=A4s1IFmjfdw"
+          },
+          {
+            "title": "Real Madrid warm-up ahead of Villarreal match",
+            "url": "https://www.youtube.com/watch?v=vaG0_7rVXok"
           }
         ]
       },
       {
-        "title": "Games",
-        "color": "#33535f",
+        "title": "Barcelona",
+        "color": "#a10032",
         "extraLink": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/formacao-jogos-unity"
+          "text": "+ vídeos",
+          "url": "https://www.youtube.com/user/fcbarcelona"
         },
         "videos": [
           {
-            "title": "Final Fantasy 7",
-            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+            "title": "TOP ASSISTS: Leo Messi's best assists compilation",
+            "url": "https://www.youtube.com/watch?v=t6HWYe2AT0o"
           },
           {
-            "title": "Assassins Creed Valhalla",
-            "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+            "title": "EVERY Messi goal in the CHAMPIONS LEAGUE (2019)",
+            "url": "https://www.youtube.com/watch?v=bErvu2goKd0"
           },
           {
-            "title": "God of War 4",
-            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+            "title": "#Messi500 Las felicitaciones más emotivas de sus amigos",
+            "url": "https://www.youtube.com/watch?v=c_2M91Dlsuk"
           },
           {
-            "title": "Resident Evil 8",
-            "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+            "title": "BARÇA IS BACK IN TRAINING",
+            "url": "https://www.youtube.com/watch?v=yt6XlxveydI"
           },
           {
-            "title": "Pokémon Let's Go Pikachu/Eevee",
-            "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-          }
-        ]
-      },
-      {
-        "title": "Aprendendo a aprender tecnologia",
-        "color": "#33535f",
-        "extraLink": {
-          "text": "Curso sobre aprendizado na Alura",
-          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-        },
-        "videos": [
-          {
-            "title": "Como estudar melhor?",
-            "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-          },
-          {
-            "title": "Faculdade",
-            "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-          },
-          {
-            "title": "Frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-          },
-          {
-            "title": "A mágica do Aprendizado",
-            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-          },
-          {
-            "title": "Como aprender a programar?",
-            "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+            "title": "Messi emulates his greatest goal... on PES2021",
+            "url": "https://www.youtube.com/watch?v=fTtRtAhoIDI"
           }
         ]
       }
