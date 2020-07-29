@@ -1,6 +1,6 @@
 # :copyright: SportFlix
 
-:arrow_right_hook: Conectando **você** aos *melhores* vídeos do mundo do **esporte**!
+:arrow_right_hook: Conectando **você** aos *melhores* vídeos do mundo do **esporte**! [Site](https://sportflix.vercel.app/)
 
 ![Home desktop](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-desktop.png)
 
