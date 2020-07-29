@@ -11,8 +11,9 @@
 - :ballot_box_with_check: custom layout
 - :ballot_box_with_check: styled-components
 - :ballot_box_with_check: react-router-dom
-- :heavy_multiplication_x: JSON with data
-- :heavy_multiplication_x: Carousel
+- :ballot_box_with_check: JSON with data
+- :ballot_box_with_check: Carousel
+- :ballot_box_with_check: SEO
 - :heavy_multiplication_x: Add vídeo into a list
 
 ## :gem: Run local
