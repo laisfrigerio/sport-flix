@@ -6,6 +6,8 @@ export const ExtraLink = styled.a`
     margin-left: 10px;
     text-decoration: none;
 
+    &:hover { color: #33535f; }
+
     @media screen and (max-width: ${theme.breakpoints.small}) {
         margin-left: 0;
     }
