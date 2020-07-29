@@ -1,51 +1,47 @@
 {
     "categories": [
       {
-        "title": "Front End",
-        "link": "https://www.alura.com.br/formacao-front-end",
-        "color": "#009658",
-        "extraLink": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        },
+        "title": "Coritiba",
+        "link": "https://www.coritiba.com.br/",
+        "color": "#0a8573",
         "videos": [
           {
-            "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+            "title": "Especial do acesso",
+            "url": "https://www.youtube.com/watch?v=HAAIr92f04Y"
           },
           {
-            "title": "SEO com React",
-            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+            "title": "Bastidores - Coritiba 2 x 0 Ponte Preta",
+            "url": "https://www.youtube.com/watch?v=aCdSz9ad87s"
           },
           {
-            "title": "Componentização com VanillaJS #AluraMais",
-            "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+            "title": "Coritiba 1 x 1 Nacional - Câmera Coxa Especial",
+            "url": "https://www.youtube.com/watch?v=dh8tZeQz80Y"
           },
           {
-            "title": "Pare de chutar e aprenda a display: inline #01",
-            "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+            "title": "A Maior Bandeira de Clubes do Brasil",
+            "url": "https://www.youtube.com/watch?v=wyy03tbMcXQ"
           },
           {
-            "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-            "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+            "title": "O Mais Vitorioso do Mundo - Documentário (Parte 2/2)",
+            "url": "https://www.youtube.com/watch?v=uWLaN1e0FII"
           },
           {
-            "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+            "title": "Coritiba 4 x 0 Athletico | Campeonato Paranaense | Melhores Momentos",
+            "url": "https://www.youtube.com/watch?v=nCytg0zS6kg"
           },
           {
-            "title": "Novidades do Angular v9",
-            "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+            "title": "Coritiba 2 x 1 Paraná | Campeonato Paranaense | Melhores Momentos",
+            "url": "https://www.youtube.com/watch?v=b6YOV7j2JEw"
           },
           {
-            "title": "Base para aprender os frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-          }        
+            "title": "Coritiba 6 x 1 União | Campeonato Paranaense | Melhores Momentos",
+            "url": "https://www.youtube.com/watch?v=Z7JCWzHA0hk"
+          }     
         ]
       },
       {
         "title": "Back End",
-        "color": "#046D85",
+        "color": "#33535f",
         "extraLink": {
           "text": "Cursos de Back End na Alura",
           "url": "https://www.alura.com.br/cursos-online-programacao"
@@ -75,7 +71,7 @@
       },
       {
         "title": "Data Science e Inteligência Artificial",
-        "color": "#01893D",
+        "color": "#33535f",
         "extraLink": {
           "text": "Cursos de Data Science na Alura",
           "url": "https://www.alura.com.br/formacao-data-science"
@@ -101,7 +97,7 @@
       },
       {
         "title": "Filmes",
-        "color": "#06ab91",
+        "color": "#33535f",
         "videos": [
           {
             "title": "Interestellar",
@@ -153,7 +149,7 @@
       },
       {
         "title": "Aprendendo a aprender tecnologia",
-        "color": "#038673",
+        "color": "#33535f",
         "extraLink": {
           "text": "Curso sobre aprendizado na Alura",
           "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"

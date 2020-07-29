@@ -24,6 +24,7 @@ export const Background = styled.img`
 export const Flex = styled.div`
     align-items: center;
     display: flex;
+    margin-bottom: 50px;
     margin-top: 50px;
     width: 100%;
     justify-content: space-between;
