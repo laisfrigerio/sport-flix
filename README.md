@@ -14,6 +14,7 @@
 - :ballot_box_with_check: JSON with data
 - :ballot_box_with_check: Carousel
 - :ballot_box_with_check: SEO
+- :ballot_box_with_check: Responsive
 - :heavy_multiplication_x: Add vídeo into a list
 
 ## :gem: Run local
