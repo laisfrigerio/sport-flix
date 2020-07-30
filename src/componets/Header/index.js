@@ -13,8 +13,8 @@ const Header = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className="btn-top" to="/add-video">
-                        Add vídeo
+                    <Link className="btn-top" to="/categories">
+                        Categorias
                     </Link>
                 </li>
             </ul>

@@ -6,16 +6,25 @@
 
 ![Home mobile](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-mobile.png)
 
+## Endpoints
+
+- `/` Home Page
+- `/categories` Add and list categories
+- `/add-video` Add video 
+
 ## :pencil: Features
 
 - :ballot_box_with_check: custom layout
 - :ballot_box_with_check: styled-components
 - :ballot_box_with_check: react-router-dom
+- :ballot_box_with_check: react-hook-form
+- :ballot_box_with_check: hooks
 - :ballot_box_with_check: JSON with data
 - :ballot_box_with_check: Carousel
 - :ballot_box_with_check: SEO
 - :ballot_box_with_check: Responsive
-- :heavy_multiplication_x: Add vídeo into a list
+- :ballot_box_with_check: Add category form
+- :heavy_multiplication_x: Add vídeo into data
 
 ## :gem: Run local
 

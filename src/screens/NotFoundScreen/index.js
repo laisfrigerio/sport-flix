@@ -1,10 +1,15 @@
 import React from 'react';
+import Container from '../../componets/Container';
+import { Flex, Title, Subtitle } from './styles';
 
 const NotFoundScreen = () => {
     return (
-        <div>
-            :( Page Not Found
-        </div>
+        <Container>
+            <Flex>
+                <Title>404</Title>
+                <Subtitle>:( página não encotrada</Subtitle>
+            </Flex>
+        </Container>
     );
 }
 
