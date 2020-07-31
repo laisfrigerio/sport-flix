@@ -6,17 +6,17 @@ import Spinner from '../../componets/Spinner';
 import { List, Item, Panel, Search, SearchInput, Title } from '../../componets/Sport';
 
 const LeagueScreen = ({match}) => {
-    const { name } = match.params;
+    const { league } = match.params;
     const [teams, setTeams] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
-            setTeams(await fetch(name));
+            setTeams(await fetch(league));
             setLoading(false);
         };
         fetchData();
-    }, [name]);
+    }, [league]);
 
     return (
         <Container>
@@ -32,12 +32,12 @@ const LeagueScreen = ({match}) => {
             )}
             {!loading && teams.length > 0 && (
                 <Panel>
-                    <Title>{name}</Title>
+                    <Title>{league}</Title>
                     <List>
                         {teams.map((team) => (
                             <Item key={team.idTeam}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 18l6-6-6-6-1.4 1.4 4.6 4.6-4.6 4.6L10 18z"></path></svg>
-                                <Link to={`/leagues/${encodeURIComponent(team.strTeam)}`}>{team.strTeam}</Link>
+                                <Link to={`/leagues/${encodeURIComponent(league)}/team/${encodeURIComponent(team.strTeam)}`}>{team.strTeam}</Link>
                             </Item>
                         ))}
                     </List>
