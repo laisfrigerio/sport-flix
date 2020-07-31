@@ -76,5 +76,8 @@ export const Panel = styled.section`
 export const Title = styled.h1`
     color: ${theme.colors.secondary};
     font-weight: bold;
-    margin-bottom: 50px;
+    
+    + ul {
+        margin-top: 50px;
+    }
 `;
