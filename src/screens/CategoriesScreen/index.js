@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import Container from '../../componets/Container';
-import { Button, DangerMessage, Form, FormGroup, FormTitle, Input, Label, TextArea } from '../../componets/Forn';
-import { Flex, ListCategories } from '../../componets/ListCategories';
+import { Button, DangerMessage, Form, FormGroup, FormTitle, Input, Label, TextArea } from '../../componets/Form';
+import { ListCategories } from '../../containers/ListCategories';
+import { Flex } from '../../componets/Flex';
 
 const CategoriesScreen = () => {
     const { register, handleSubmit, errors, reset } = useForm({ mode: 'onBlur' });

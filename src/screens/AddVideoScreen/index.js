@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../../componets/Container';
-import { Form, Input } from '../../componets/Forn';
+import { Form, Input } from '../../componets/Form';
 
 const AddVideoScreen = () => {
     return (
