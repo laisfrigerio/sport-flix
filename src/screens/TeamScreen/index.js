@@ -26,11 +26,9 @@ const LeagueScreen = ({match}) => {
             </Search>
             {loading && teams.length === 0 && <Spinner />}
             {!loading && teams.length === 0 && (
-                <Container>
-                    <Panel>
-                        <Title>Liga não encontrada</Title>
-                    </Panel>
-                </Container>
+                <Panel>
+                    <Title>Liga não encontrada</Title>
+                </Panel>
             )}
             {!loading && teams.length > 0 && (
                 <Panel>
