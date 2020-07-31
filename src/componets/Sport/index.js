@@ -2,12 +2,9 @@ import styled from 'styled-components';
 import theme from '../../styles/theme';
 
 export const List = styled.ul`
-    background: #d4d4d4;
-    border-top: 2px solid #888888;
     color: #888888;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
     width: 100%;
 `;
 
@@ -48,6 +45,10 @@ export const Search = styled.div`
 
         * { fill: ${theme.colors.secondary}; }
     }
+
+    @media screen and (max-width: ${theme.breakpoints.small}) {
+        margin-bottom: 40px;
+    }
 `;
 
 export const SearchInput = styled.input`
@@ -57,4 +58,23 @@ export const SearchInput = styled.input`
     height: 50px;
     padding: 5px 10px 5px 45px;
     width: 100%;
+`;
+
+
+export const Panel = styled.section`
+    background: #d4d4d4;
+    border-top: 2px solid #888888;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    @media screen and (max-width: ${theme.breakpoints.xSmall}) {
+        padding: 20px;
+    }
+`;
+
+export const Title = styled.h1`
+    color: ${theme.colors.secondary};
+    font-weight: bold;
+    margin-bottom: 50px;
 `;
