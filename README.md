@@ -2,7 +2,7 @@
 
 :arrow_right_hook: Conectando **você** aos *melhores* vídeos do mundo do **esporte**! [Site](https://sportflix.vercel.app/)
 
-![Home desktop](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-desktop.png)
+![Home desktop](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-desktop-league.png)
 
 ![Home mobile](https://raw.githubusercontent.com/laisfrigerio/sport-flix/master/screenshots/home-mobile.png)
 
