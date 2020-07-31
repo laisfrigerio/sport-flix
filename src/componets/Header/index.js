@@ -13,8 +13,8 @@ const Header = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className="btn-top" to="/categories">
-                        Categorias
+                    <Link className="btn-top" to="/leagues">
+                        Ligas
                     </Link>
                 </li>
             </ul>

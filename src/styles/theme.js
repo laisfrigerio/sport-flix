@@ -5,7 +5,8 @@ export default {
         white: '#fff',
         black: '#000',
         gray: "gray",
-        lightGray: "#ccc"
+        lightGray: "#ccc",
+        bg: '#e8e8e8'
     },
     alert: {
         danger: {
