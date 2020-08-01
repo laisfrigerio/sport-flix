@@ -112,6 +112,13 @@ export const LeagueName = styled.p`
     margin-left: 185px;
     margin-top: 5px;
 
+    a {
+        color: ${theme.colors.secondary};
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+    }
+
     @media screen and (max-width: ${theme.breakpoints.small}) {
         margin-left: 0;
     }
@@ -163,6 +170,7 @@ export const Uniform = styled.div`
     position: absolute;
     right: 0;
     top: -70px;
+    z-index: 10;
 
     img {
         height: 130px;

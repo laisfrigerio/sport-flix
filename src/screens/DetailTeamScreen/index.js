@@ -30,7 +30,9 @@ const DetailTeamScreen = ({match}) => {
                             <img src={team.strTeamBadge} alt={`${team.strTeam} Logo`} />
                         </Picture>
                     </Banner>
-                    <LeagueName>{team.strTeam}</LeagueName>
+                    <LeagueName>
+                        {team.strTeam} - <a href={`http://${team.strWebsite}`} >site oficial</a>
+                    </LeagueName>
                 </Hero>
             )}
             {loading && !team && <Spinner />}
