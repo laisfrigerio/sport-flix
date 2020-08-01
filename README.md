@@ -34,6 +34,8 @@
 
 ## :gem: Run local
 
+- `git clone git@github.com:laisfrigerio/sport-flix.git`
+- `cd sport-flix`
 - `npm install`
 - `npm start`
 
