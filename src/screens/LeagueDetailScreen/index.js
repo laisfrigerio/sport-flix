@@ -5,7 +5,7 @@ import { find as findLeague } from '../../services/leagues';
 import Container from '../../componets/Container';
 import Spinner from '../../componets/Spinner';
 import { List, Item, Panel, Search, SearchInput, Title } from '../../componets/Sport';
-import { Banner, Hero, LeagueName, Picture } from '../../componets/League';
+import { Banner, Hero, LeagueName, Picture } from '../../componets/Sport';
 
 const LeagueDetailScreen = ({match}) => {
     const { leagueName, id } = match.params;
@@ -53,12 +53,12 @@ const LeagueDetailScreen = ({match}) => {
             )}
             {!loading && teams.length > 0 && (
                 <Panel>
-                    <Title>{leagueName}</Title>
+                    <Title>Times</Title>
                     <List>
                         {teams.map((team) => (
                             <Item key={team.idTeam}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 18l6-6-6-6-1.4 1.4 4.6 4.6-4.6 4.6L10 18z"></path></svg>
-                                <Link to={`/leagues/${encodeURIComponent(leagueName)}/team/${encodeURIComponent(team.strTeam)}`}>{team.strTeam}</Link>
+                                <Link to={`/leagues/${encodeURIComponent(leagueName)}/${id}/team/${encodeURIComponent(team.strTeam)}/${team.idTeam}`}>{team.strTeam}</Link>
                             </Item>
                         ))}
                     </List>

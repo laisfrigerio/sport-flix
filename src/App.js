@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/categories" component={CategoryScreen} />
           <Route exact path="/leagues" component={LeagueListScreen} />
           <Route exact path="/leagues/:leagueName/:id" component={LeagueDetailScreen} />
-          <Route exact path="/leagues/:league/team/:team" component={DetailTeamScreen} />
+          <Route exact path="/leagues/:leagueName/:leagueId/team/:teamName/:id" component={DetailTeamScreen} />
           <Route path="/*" component={NotFoundScreen} />
         </Switch>
       </BrowserRouter>
