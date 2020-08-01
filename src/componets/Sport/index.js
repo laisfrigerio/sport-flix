@@ -32,7 +32,7 @@ export const Item = styled.li`
 `;
 
 export const Search = styled.div`
-    margin: 30px auto 70px auto;
+    margin: 30px auto 30px auto;
     max-width: 500px;
     position: relative;
 

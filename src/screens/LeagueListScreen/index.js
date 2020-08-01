@@ -5,7 +5,7 @@ import Container from '../../componets/Container';
 import Spinner from '../../componets/Spinner';
 import { List, Item, Panel, Search, SearchInput, Title } from '../../componets/Sport';
 
-const LeagueScreen = () => {
+const LeagueListScreen = () => {
     const [leagues, setLeagues] = useState([]);
     const [search, setSearch] = useState("");
     const [loading, setLoading] = useState(true);
@@ -41,7 +41,7 @@ const LeagueScreen = () => {
                         {leagues.map((league) => (
                             <Item key={league.idLeague}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 18l6-6-6-6-1.4 1.4 4.6 4.6-4.6 4.6L10 18z"></path></svg>
-                                <Link to={`/leagues/${encodeURIComponent(league.strLeague)}`}>{league.strLeague}</Link>
+                                <Link to={`/leagues/${encodeURIComponent(league.strLeague)}/${league.idLeague}`}>{league.strLeague}</Link>
                             </Item>
                         ))}
                     </List>
@@ -51,4 +51,4 @@ const LeagueScreen = () => {
     );
 }
 
-export default LeagueScreen;
+export default LeagueListScreen;

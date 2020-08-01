@@ -4,8 +4,8 @@ import GlobalStyle from './styles/global';
 import Header from './componets/Header';
 import HomeScreen from './screens/HomeScreen';
 import CategoryScreen from './screens/CategoryScreen';
-import LeagueScreen from './screens/LeagueScreen';
-import TeamScreen from './screens/TeamScreen';
+import LeagueListScreen from './screens/LeagueListScreen';
+import LeagueDetailScreen from './screens/LeagueDetailScreen';
 import DetailTeamScreen from './screens/DetailTeamScreen';
 import NotFoundScreen from './screens/NotFoundScreen';
 
@@ -18,8 +18,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/categories" component={CategoryScreen} />
-          <Route exact path="/leagues" component={LeagueScreen} />
-          <Route exact path="/leagues/:league" component={TeamScreen} />
+          <Route exact path="/leagues" component={LeagueListScreen} />
+          <Route exact path="/leagues/:leagueName/:id" component={LeagueDetailScreen} />
           <Route exact path="/leagues/:league/team/:team" component={DetailTeamScreen} />
           <Route path="/*" component={NotFoundScreen} />
         </Switch>
