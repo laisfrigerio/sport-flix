@@ -167,4 +167,11 @@ export const Uniform = styled.div`
     img {
         height: 130px;
     }
+
+    @media screen and (max-width: ${theme.breakpoints.small}) {
+        top: -50px;
+        img {
+            height: 100px;
+        }
+    }
 `;
