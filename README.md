@@ -13,7 +13,7 @@
 - `/leagues/:leagueName/:id` Detalhes e todos os times de uma determinada liga
 - `/leagues/:leagueName/:leagueId/team/:teamName/:id`  Detalhe de um selecionado time
 - `/categories` Add and list categories
-- `/*` Exibe uma página de 404
+- `*` Exibe uma página de 404 com um joguinho (tretis)
 
 ## :pencil: Features
 
