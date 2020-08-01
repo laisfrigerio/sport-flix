@@ -33,7 +33,7 @@ const LeagueDetailScreen = ({match}) => {
             {league && (
                 <Hero>
                     <Banner className="header">
-                        <img src={league.strBanner} alt={league.strLeague} />
+                        {league.strBanner && <img src={league.strBanner} alt={league.strLeague} />}
                         <Picture>
                             <img src={league.strBadge} alt={`${league.strLeague} Logo`} />
                         </Picture>

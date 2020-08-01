@@ -7,7 +7,7 @@ import { BackButton, Banner, Hero, LeagueName, Picture } from '../../componets/S
 import { find } from '../../services/teams';
 
 const DetailTeamScreen = ({match}) => {
-    const { teamName, id } = match.params;
+    const { leagueName, leagueId, teamName, id } = match.params;
     const [team, setTeam] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -23,9 +23,9 @@ const DetailTeamScreen = ({match}) => {
         <Container>
             {team && (
                 <Hero>
-                    <BackButton to={`/leagues/${LeagueName}/${id}`}>Voltar</BackButton>
+                    <BackButton to={`/leagues/${leagueName}/${leagueId}`}>Voltar</BackButton>
                     <Banner className="header">
-                        <img src={team.strTeamBanner} alt={team.strTeam} />
+                        {team.strTeamBanner && <img src={team.strTeamBanner} alt={team.strTeam} />}
                         <Picture>
                             <img src={team.strTeamBadge} alt={`${team.strTeam} Logo`} />
                         </Picture>
