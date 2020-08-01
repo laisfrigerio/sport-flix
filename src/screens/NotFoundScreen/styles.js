@@ -5,6 +5,13 @@ export const Flex = styled.section`
     align-items: center;;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+
+    small {
+        color: grey;
+        font-size: 13px;
+        margin: 5px 0;
+    }
 `;
 
 export const Title = styled.h1`

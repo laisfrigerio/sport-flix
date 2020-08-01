@@ -10,15 +10,16 @@
 
 - `/` Home Page
 - `/leagues` Lista de campeonatos
-- `/leagues/:league` Lista de todos os times de uma determinada liga
-- `/leagues/:league/team/:team` Detalhe de um selecionado time
+- `/leagues/:leagueName/:id` Detalhes e todos os times de uma determinada liga
+- `/leagues/:leagueName/:leagueId/team/:teamName/:id`  Detalhe de um selecionado time
 - `/categories` Add and list categories
-- `/add-video` Add video 
+- `/*` Exibe uma página de 404
 
 ## :pencil: Features
 
 - :ballot_box_with_check: custom layout
 - :ballot_box_with_check: styled-components
+- :ballot_box_with_check: react-slick
 - :ballot_box_with_check: react-router-dom
 - :ballot_box_with_check: react-hook-form
 - :ballot_box_with_check: prop-types
@@ -30,7 +31,13 @@
 - :ballot_box_with_check: SEO
 - :ballot_box_with_check: Responsive
 - :ballot_box_with_check: Add category form and list items
-- :heavy_multiplication_x: Add vídeo into data
+
+## :pencil: Desafios
+
+- Customizar o layout
+- Utilizar outras propriedades/css da lib`react-slick`
+- Spinner/Loading
+- Página 404 com jogo ([@tetris](https://laisfrigerio.github.io/js-tetris-game/))
 
 ## :gem: Run local
 
