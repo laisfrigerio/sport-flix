@@ -68,6 +68,7 @@ export const Panel = styled.section`
     display: flex;
     flex-direction: column;
     padding: 50px;
+    position: relative;
 
     p {
         color: #888888;
@@ -158,3 +159,12 @@ export const BackButton = styled(Link)`
     }
 `;
 
+export const Uniform = styled.div`
+    position: absolute;
+    right: 0;
+    top: -70px;
+
+    img {
+        height: 130px;
+    }
+`;

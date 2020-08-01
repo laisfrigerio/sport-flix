@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import Container from '../../componets/Container';
 import Spinner from '../../componets/Spinner';
 import { Panel, Title } from '../../componets/Sport';
-import { BackButton, Banner, Hero, LeagueName, Picture } from '../../componets/Sport';
+import { BackButton, Banner, Hero, LeagueName, Picture, Uniform } from '../../componets/Sport';
 import { find } from '../../services/teams';
 
 const DetailTeamScreen = ({match}) => {
@@ -41,6 +41,11 @@ const DetailTeamScreen = ({match}) => {
             )}
             {!loading && team && (
                 <Panel>
+                    {team.strTeamJersey && (
+                        <Uniform>
+                            <img alt={`Uniforme do ${team.strTeam}`} src={team.strTeamJersey} />
+                        </Uniform>
+                    )}
                     <Title>Descrição</Title>
                     {team.strDescriptionPT 
                         ? <p>{team.strDescriptionPT}</p>
